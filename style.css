@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(font/SFPRODISPLAYREGULAR.OTF);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #f7f6f4;
+    height: 70px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+.left-1st-nav,a .right-1st-nav,a,p{
+    font-family: regular;
+    font-size: 12.9px;
+    line-height: 19.35px;
+    color: rgb(80, 102, 131);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.right-1st-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.whatsapp{
+    height: 5vh;
+    margin-top: -5px;
+}
+
+.right-1st-nav div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    gap: 10px;
+}
+
+.right-1st-nav div a{
+    border: 1px solid rgb(212, 206, 206);
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: -10px;
+    width: 100px;
+    height: 40px;
+}
+
+.flag{
+    height: 3vh;
+}
+
+a{
+    text-decoration: none;
+}
+
